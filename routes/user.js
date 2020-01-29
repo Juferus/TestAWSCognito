@@ -7,17 +7,17 @@ const FacebookStrategy = require('passport-facebook')
 const AWS = require('aws-sdk')
 require('colors')
 
-const AWS_ACCOUNT_ID = '021511564272'
-const COGNITO_IDENTITY_POOL_ID = 'us-east-1:f4f4f19b-af41-4f5a-b4e0-ce09a19e4411'
+const AWS_ACCOUNT_ID = '***********'
+const COGNITO_IDENTITY_POOL_ID = 'us-east-1:******************************'
 let COGNITO_IDENTITY_ID
 let AWS_TEMP_CREDENTIALS
 let COGNITO_SYNC_TOKEN
 let cognitosync
-const IAM_ROLE_ARN = 'arn:aws:iam::021511564272:role/Cognito_TestFacebookAuth_Role'
+const IAM_ROLE_ARN = 'arn:aws:iam::*************:role/Cognito_TestFacebookAuth_Role'
 let COGNITO_SYNC_COUNT
 const COGNITO_DATASET_NAME = 'TEST_DATASET'
-const FACEBOOK_APP_ID = '829762180830799'
-const FACEBOOK_APP_SECRET = 'ed745f6f2a919ab4094c8a4b2524096c'
+const FACEBOOK_APP_ID = '******************'
+const FACEBOOK_APP_SECRET = '****************************'
 let FACEBOOK_TOKEN
 let FACEBOOK_USER = {
   id: '',
